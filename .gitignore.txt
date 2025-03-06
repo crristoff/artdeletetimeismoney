@@ -1,0 +1,62 @@
+Sanely
+sanely
+Invisible
+
+gronaldo44 — Today at 5:54 PM
+Compiled binaries
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.sln
+*.VC.opendb
+.vscode/
+*.xcodeproj
+*.xcworkspace
+
+Unreal Engine-specific
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+Config/DefaultInput.ini
+Config/DefaultEditorSettings.ini
+Config/Localization/
+
+Ignore log and crash files
+/Logs/
+/CrashReportClient/
+/MemoryDump/
+/AutomationTool/
+
+Ignore Unreal's auto-generated files
+*.aps
+*.ncb
+*.sdf
+*.suo
+*.user
+*.sln.docstates
+*.pdb
+.idb
+
+Ignore Plugin Binaries & Intermediates
+Plugins//Binaries/
+Plugins/*/Intermediate/
+
+Ignore Generated Project Files
+*.vs/
+*.vscode/
+
+Ignore the DerivedDataCache if it's set to be stored locally
+DerivedDataCache/
+
+Ignore Python cache and virtual environments
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+
+ 
