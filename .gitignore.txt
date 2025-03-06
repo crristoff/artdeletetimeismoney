@@ -10,6 +10,7 @@ DerivedDataCache/
 Intermediate/
 Saved/
 *.sln
+*.VC.db
 *.VC.opendb
 .vscode/
 *.xcodeproj
